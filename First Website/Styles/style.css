@@ -1,0 +1,131 @@
+a:any-link{
+    border: 5px double black;
+    background-color: rgba(228, 148, 195,0.500);
+    color: darkblue;
+    padding: 5px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: fuchsia;
+}
+#body{
+    background-color: black; 
+    background-image: url(/images/disneykasteel.jpg);
+    background-size: cover;
+        margin: 0% 10%;
+}
+.ButtonFind{
+    background-color: blue;
+    border-color: blue;
+    color: white;    
+    margin: 1cm;
+    width: 50%;
+    border-radius:15px;
+}
+.cardtitle{
+    padding: 5%;
+    background-color: white;
+}
+.cardtitle h1{
+    font-size: 25px;
+    align-items: center;
+}
+.cardtitle p{
+    font-size: 16px;
+    align-items: center;
+}
+.container1{
+    margin:20px 0%;
+    margin-bottom: 5%;
+    padding: 30px;
+    background-color: rgba(228, 148, 195, 0.300);
+    border: 5px double black;
+}
+.container2 {
+    margin: 10% 0%;
+    grid-template-columns: 25%;
+}
+.container3 {
+    margin: 10% 0%;
+    grid-template-columns: 33%;
+    text-align: center; 
+}
+.container4 h2{
+color: fuchsia;
+text-shadow: 2px 2px 2px pink;
+}
+.container4 p{
+    color: pink;
+}
+.fotoDisney{
+    width: 100%;
+    height: 350px;
+    padding-bottom: 5px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 75%;
+  }  
+#figurenGalerij{
+    height: 350px;
+  }
+.formulier{
+    background-color: rgba(1, 1, 77, 0.63);
+    color: white;
+}
+footer{
+    margin-top: 5cm;
+}
+footer p{
+    color: white;
+}
+.fototekst{
+    margin-top: 10%;
+}
+h1{
+    font-size: 80px;
+    color: black;
+}
+.MapDisney{
+    margin-bottom: 1cm ;
+}
+.movie{
+    border: 5px double rgba(228, 148, 195, 0.300);
+    height: 350px;
+    width: 600px;
+    margin-bottom: 5%;
+}
+#nav{
+    font-size: 2vh;
+    position:sticky;
+    top: 10px;
+    color: fuchsia;
+    z-index: 9999;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+.submit{
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    block-size: 1cm;
+    border-radius:15px;
+}
+.themes {
+    background-color: rgba(228, 148, 195, 0.300);
+    border: 5px double black;
+    padding:5px;
+    margin-bottom: 20px;
+}
+.themesHome {
+    background-color: rgba(228, 148, 195, 0.300);
+    border: 5px double black;
+    padding:5px;
+    margin-bottom: 20px;
+    text-align: center;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Storm&family=Rubik+Vinyl&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>CONTACT</title>
+
+
+  </head>
+  <body id="body">
+        <a title="top" name="top"></a>
+    <div id="nav">
+      <a href="/pages/HOME.html">HOME</a> |
+      <a href="/pages/ONZE REIZEN.html">ONZE REIZEN</a> |
+      <a href="/pages/FOTOGALERIJ.html">FOTOGALERIJ</a> |
+      <a href="/pages/REISTIPS.html">REISTIPS</a> |
+      <a href="/pages/CONTACT.html">CONTACT</a> 
+    </div>
+    <div class="container1">
+      <h1>Nog Vragen?</h1>
+    </div>
+    <form>
+      <section>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-lg-9 col-xl-7">
+                <div class="formulier card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">
+                    Registratie Formulier
+                  </h3>
+                  <form>
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="firstName"
+                            >Voornaam</label
+                          >
+                          <input
+                            type="Firstname"
+                            class="form-control form-control-lg"
+                            maxlength="25"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                          <label class="form-label" for="lastName"
+                            >Achternaam</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-lg"
+                            maxlength="25"
+                            required
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 d-flex align-items-center">
+                        <div class="date">
+                          <label for="birthdayDate" class="form-label"
+                            >Verjaardag</label
+                          >
+                          <input
+                            type="date"
+                            class="form-control form-control-lg"
+                            id="birthdayDate"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4">
+                        <h6 class="mb-2 pb-1">Gender:</h6>
+
+                        <div class="form-check">
+                          <input
+                            class="input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            value="option1"
+                            checked
+                          />
+                          <label class="form-check-label" for="maleGender"
+                            >Man</label
+                          >
+                        </div>
+
+                        <div class="form-check">
+                          <input
+                            class="input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            value="option2"
+                          />
+                          <label class="form-check-label" for="femaleGender"
+                            >vrouw</label
+                          >
+                        </div>
+
+                        <div class="form-check ">
+                          <input
+                            class="input"
+                            type="radio"
+                            name="inlineRadioOptions"
+                            value="option3"
+                          />
+                          <label class="form-check-label" for="NeutralGender"
+                            >Neutraal</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div class="form-outline">
+                          <label class="form-label" for="emailAddress"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            id="emailAddress"
+                            class="form-control form-control-lg"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+                        <div class="form-outline">
+                          <label class="form-label" for="phoneNumber"
+                            >Telefoon</label
+                          >
+                          <input
+                            type="tel"
+                            id="phoneNumber"
+                            class="form-control form-control-lg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12">
+                        <label class="form-label select-label">Onderwerp</label
+                        ><br />
+                        <select class="select form-control-lg">
+                          <option value="1">Kies een optie</option>
+                          <option value="2">optie 1</option>
+                          <option value="3">optie 2</option>
+                          <option value="4">optie 3</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div>
+                      <div class="col-12">
+                        <br />
+                        <label class="form-label select-label">Reactie</label
+                        ><br />
+                        <textarea
+                          id="w3review"
+                          name="w3review"
+                          rows="4"
+                          cols="50"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <form
+                      method="post"
+                      action="https://w3schools.com/action_page.php"
+                    >
+                      <div class="mt-4 pt-2">
+                        <input
+                          class="btn btn-primary btn-lg"
+                          type="submit"
+                          value="Submit"
+                        />
+                      </div>
+                    </form>
+                  </form>
+                </div>
+            </div>
+          </div>
+      </section>
+    </form>
+      <footer
+        class="text-center text-lg-start text-white"
+          style="background-color: #00133de0">
+            <div class="container p-4 pb-0">
+              <section class="">
+                <div class="row">
+                  <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold">
+                      Walt Disney World Resort
+                      </h6>
+                      <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                      aliquam voluptatum officia possimus neque. Quasi velit
+                      corrupti architecto tempore consequatur delectus animi dolorum
+                      ratione tenetur saepe! Nemo, tempore iusto. Ea.
+                      </p>
+                  </div>
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="Contact">Contact</h6>
+                    <p><i class="fa fa-home mr-3"></i> Lake Buena Vista,US</p>
+                    <p><i class="fa fa-envelope mr-3"></i> info@Disney.com</p>
+                    <p><i class="fa fa-phone mr-3"></i> +1 40 79 39 52 77</p>
+                  </div>
+                </div>
+              </section>
+              <section class="socialmedia">
+                <div class="row d-flex align-items-center">
+                  <div class="col-md-7 col-lg-8  text-md-start"></div>
+                    <div class="col-md-5 col-lg-4 ml-lg-0">
+                        <!-- Facebook -->
+                        <a href="#" class="fa fa-facebook"></a>
+                        <!-- Twitter -->
+                        <a href="#" class="fa fa-twitter"></a>
+                        <!-- Google -->
+                        <a href="#" class="fa fa-google"></a>
+                        <!-- Instagram -->
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#top" class="knopBovengaan">Go up</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+       </footer>
+  </body>
+</html>
